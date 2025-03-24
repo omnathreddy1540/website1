@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #00796b;
+  }
+  
+  .log-section {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004d40;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ffffff;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

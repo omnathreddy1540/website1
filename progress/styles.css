@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #67C3F3, #BFE6FF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    background: #2196F3;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .back-btn {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Goal Input Section */
+.goal-input-container {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.goal-input-container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.goal-input-container {
+    margin-top: 100px; /* Increase this value to add more gap */
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Task List */
+.task-list {
+    margin-top: 20px;
+    width: 90%;
+}
+
+.task {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task span {
+    font-size: 16px;
+}
+
+.task button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

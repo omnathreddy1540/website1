@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1f5fe; /* Light blue background */
+  }
+  
+  .settings-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  header {
+    background-color: #03a9f4; /* Blue header */
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .back-button {
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .setting-item {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .setting-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+  }
+  

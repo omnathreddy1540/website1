@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym & Diet Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="back-button" onclick="goBack()">&#8592;</div>
+  <div class="container">
+    <h1>Gym & Diet</h1>
+
+    <!-- Log Meal Section -->
+    <div class="log-section">
+      <h2>Log Meal</h2>
+      <input type="text" id="meal-name" placeholder="Meal">
+      <input type="number" id="meal-calories" placeholder="Calories">
+      <button id="add-meal">Add Meal</button>
+    </div>
+
+    <!-- Log Workout Section -->
+    <div class="log-section">
+      <h2>Log Workout</h2>
+      <input type="text" id="workout-name" placeholder="Workout">
+      <button id="add-workout">Add Workout</button>
+    </div>
+
+    <!-- Display Meals -->
+    <h3>Meals</h3>
+    <ul id="meal-list"></ul>
+
+    <!-- Display Workouts -->
+    <h3>Workouts</h3>
+    <ul id="workout-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

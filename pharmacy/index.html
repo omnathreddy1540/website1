@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Time Picker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="back-button" onclick="goBack()">&#8592;</div>
+        <h2>Pharmacy</h2>
+        
+        <input type="text" id="medication-name" placeholder="Medication Name">
+        <input type="text" id="selected-time" readonly placeholder="Select Time">
+        
+        <button id="set-time-btn" class="btn">Set Time</button>
+        <button id="add-btn" class="btn">Add</button>
+        
+        <h3>Medication Schedule</h3>
+        <ul id="schedule-list"></ul>
+    </div>
+
+    <!-- Time Picker Modal -->
+    <div id="time-picker-modal">
+        <div class="modal-content">
+            <h4>Select Time</h4>
+            <div class="time-picker">
+                <input type="time" id="time-input">
+            </div>
+            <div class="modal-footer">
+                <button id="cancel-btn" class="btn">Cancel</button>
+                <button id="ok-btn" class="btn">OK</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
